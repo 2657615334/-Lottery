@@ -19,7 +19,7 @@ import {ref} from 'vue'
   let jumpingTime=ref(0)  // 正在轮跳的时间
   let jumpingTotalTime= ref(0)  // 轮跳的时间总量，基于 duration 变量加上一个 0~1000 之间的随机数组成
   let jumpingChange=ref(0) // 轮跳速率峰值，基于 velocity 变量加上一个 0~3 之间的随机数组成
-  let duration=ref(1) // 持续时间
+  let duration=ref(2500) // 持续时间
   let velocity=ref(350) // 速率
   let chanceNum = ref(5) // 抽奖次数
   let prizeList = ref([]) //存放奖品的数组
